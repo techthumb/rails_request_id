@@ -1,6 +1,7 @@
-RailsRequestId makes Rails' request_id available globally in a thread safe manner
+#RailsRequestId [![Build Status](https://travis-ci.org/techthumb/rails_request_id.svg)](https://travis-ci.org/techthumb/rails_request_id)
 
-How do you access the request id?
+Web requests in Rails get assigned a unique request id.
+To access this id in a threadsafe manner, you can simply
 ```
 ::RailsRequestId.get
 ```
