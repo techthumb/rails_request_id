@@ -12,7 +12,6 @@ GEM
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
-    docile (1.1.5)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     git (1.2.7)
@@ -70,11 +69,6 @@ GEM
     rspec-mocks (3.0.2)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.2)
-    simplecov (0.8.2)
-      docile (~> 1.1.0)
-      multi_json
-      simplecov-html (~> 0.8.0)
-    simplecov-html (0.8.0)
     thread_safe (0.3.4)
     tzinfo (1.2.1)
       thread_safe (~> 0.1)
@@ -83,10 +77,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (~> 4.1.1)
+  activesupport (~> 4.1)
   bundler (~> 1.0)
-  jeweler (~> 2.0.1)
+  jeweler (~> 2.0)
   rdoc (~> 3.12)
-  rspec (~> 3.0.0)
-  rspec-its (~> 1.0.1)
-  simplecov
+  rspec (~> 3.0)
+  rspec-its (~> 1.0)
